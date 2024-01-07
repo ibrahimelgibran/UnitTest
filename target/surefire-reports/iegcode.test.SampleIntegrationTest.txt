@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: iegcode.test.CalculatorTest
+Test set: iegcode.test.SampleIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in iegcode.test.CalculatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in iegcode.test.SampleIntegrationTest

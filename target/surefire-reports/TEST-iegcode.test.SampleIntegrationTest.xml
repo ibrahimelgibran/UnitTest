@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="iegcode.test.CalculatorTest" time="0.014" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="iegcode.test.SampleIntegrationTest" time="0.013" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/elgibran17/Documents/iegcode-java-unit-test/target/surefire/surefirebooter1355233761154504260.jar /Users/elgibran17/Documents/iegcode-java-unit-test/target/surefire 2024-01-07T21-22-58_229-jvmRun1 surefire8564659710396116351tmp surefire_013641393444289524862tmp"/>
+    <property name="sun.java.command" value="/Users/elgibran17/Documents/iegcode-java-unit-test/target/surefire/surefirebooter2492286944515939684.jar /Users/elgibran17/Documents/iegcode-java-unit-test/target/surefire 2024-01-07T22-39-13_524-jvmRun1 surefire4658933418539992142tmp surefire_08773232702020843069tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/elgibran17/Documents/iegcode-java-unit-test/target/test-classes:/Users/elgibran17/Documents/iegcode-java-unit-test/target/classes:/Users/elgibran17/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.1/junit-jupiter-5.10.1.jar:/Users/elgibran17/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar:/Users/elgibran17/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/elgibran17/.m2/repository/org/junit/platform/junit-platform-commons/1.10.1/junit-platform-commons-1.10.1.jar:/Users/elgibran17/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/elgibran17/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.1/junit-jupiter-params-5.10.1.jar:/Users/elgibran17/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.1/junit-jupiter-engine-5.10.1.jar:/Users/elgibran17/.m2/repository/org/junit/platform/junit-platform-engine/1.10.1/junit-platform-engine-1.10.1.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/elgibran17/Documents/iegcode-java-unit-test/target/surefire/surefirebooter1355233761154504260.jar"/>
+    <property name="surefire.real.class.path" value="/Users/elgibran17/Documents/iegcode-java-unit-test/target/surefire/surefirebooter2492286944515939684.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
@@ -46,6 +46,7 @@
     <property name="java.version" value="21.0.1"/>
     <property name="user.dir" value="/Users/elgibran17/Documents/iegcode-java-unit-test"/>
     <property name="os.arch" value="aarch64"/>
+    <property name="groups" value="integration-test"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/elgibran17/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
@@ -57,7 +58,6 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testDivideFailed" classname="iegcode.test.CalculatorTest" time="0.007"/>
-  <testcase name="testAddSuccess" classname="iegcode.test.CalculatorTest" time="0"/>
-  <testcase name="testDivideSuccess" classname="iegcode.test.CalculatorTest" time="0"/>
+  <testcase name="test1" classname="iegcode.test.SampleIntegrationTest" time="0.009"/>
+  <testcase name="test2" classname="iegcode.test.SampleIntegrationTest" time="0"/>
 </testsuite>
